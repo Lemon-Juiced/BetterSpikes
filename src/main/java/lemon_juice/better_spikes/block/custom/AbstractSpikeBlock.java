@@ -10,6 +10,9 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
+/**
+ * An abstract representation of a SpikeBlock, having all the basic qualities of any spike block.
+ */
 public class AbstractSpikeBlock extends Block {
     private static final float HURT_SPEED_THRESHOLD = 0.003F;
     private static final VoxelShape SAPLING_SHAPE;

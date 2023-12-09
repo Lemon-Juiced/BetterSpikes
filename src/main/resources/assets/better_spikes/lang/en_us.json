@@ -11,5 +11,11 @@
   "block.better_spikes.crimson_spike": "Crimson Spike",
   "block.better_spikes.warped_spike": "Warped Spike",
 
-  "itemGroup.better_spikes": "Better Spikes"
+  "itemGroup.better_spikes": "Better Spikes",
+
+  "tooltip.better_spikes.sfl": "Lethality: Safe For Life",
+  "tooltip.better_spikes.nsfl": "Lethality: Not Safe For Life",
+  "tooltip.better_spikes.tier": "Tier: ",
+  "tooltip.better_spikes.damage_bonus": "Damage Bonus: ",
+  "tooltip.better_spikes.speed": "Speed "
 }
