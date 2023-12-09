@@ -1,5 +1,8 @@
 package lemon_juice.better_spikes;
 
+import lemon_juice.better_spikes.block.BetterSpikesBlocks;
+import lemon_juice.better_spikes.creativetab.BetterSpikesCreativeTab;
+import lemon_juice.better_spikes.item.BetterSpikesItems;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -15,6 +18,14 @@ public class BetterSpikes {
 
     public BetterSpikes(IEventBus modEventBus) {
         modEventBus.addListener(this::commonSetup);
+
+        // Register Items
+        BetterSpikesItems.register(modEventBus);
+        BetterSpikesBlocks.register(modEventBus);
+
+        // Register Creative Tab
+        BetterSpikesCreativeTab.register(modEventBus);
+        modEventBus.addListener(BetterSpikesCreativeTab::registerTabs);
 
         NeoForge.EVENT_BUS.register(this);
     }

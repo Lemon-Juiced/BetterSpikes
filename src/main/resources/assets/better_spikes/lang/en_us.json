@@ -1,0 +1,15 @@
+{
+  "block.better_spikes.oak_spike": "Oak Spike",
+  "block.better_spikes.spruce_spike": "Spruce Spike",
+  "block.better_spikes.birch_spike": "Birch Spike",
+  "block.better_spikes.jungle_spike": "Jungle Spike",
+  "block.better_spikes.acacia_spike": "Acacia Spike",
+  "block.better_spikes.dark_oak_spike": "Dark Oak Spike",
+  "block.better_spikes.mangrove_spike": "Mangrove Spike",
+  "block.better_spikes.cherry_spike": "Cherry Spike",
+  "block.better_spikes.bamboo_spike": "Bamboo Spike",
+  "block.better_spikes.crimson_spike": "Crimson Spike",
+  "block.better_spikes.warped_spike": "Warped Spike",
+
+  "itemGroup.better_spikes": "Better Spikes"
+}
