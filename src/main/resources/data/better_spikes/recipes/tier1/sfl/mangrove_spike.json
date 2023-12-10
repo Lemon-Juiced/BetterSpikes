@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " / ",
+    "/#/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "minecraft:mangrove_planks"
+    }
+  },
+  "result": {
+    "item": "better_spikes:mangrove_spike",
+    "count": 1
+  }
+}

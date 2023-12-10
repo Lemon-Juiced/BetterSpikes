@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "D",
+    "#"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:pointed_dripstone"
+    },
+    "#": {
+      "item": "minecraft:andesite"
+    }
+  },
+  "result": {
+    "item": "better_spikes:andesite_spike",
+    "count": 1
+  }
+}

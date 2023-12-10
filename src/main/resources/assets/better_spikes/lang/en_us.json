@@ -11,6 +11,16 @@
   "block.better_spikes.crimson_spike": "Crimson Spike",
   "block.better_spikes.warped_spike": "Warped Spike",
 
+  "block.better_spikes.stone_spike": "Stone Spike",
+  "block.better_spikes.granite_spike": "Granite Spike",
+  "block.better_spikes.diorite_spike": "Diorite Spike",
+  "block.better_spikes.andesite_spike": "Andesite Spike",
+  "block.better_spikes.deepslate_spike": "Deepslate Spike",
+  "block.better_spikes.tuff_spike": "Tuff Spike",
+  "block.better_spikes.netherrack_spike": "Netherrack Spike",
+  "block.better_spikes.basalt_spike": "Basalt Spike",
+  "block.better_spikes.blackstone_spike": "Blackstone Spike",
+
   "itemGroup.better_spikes": "Better Spikes",
 
   "tooltip.better_spikes.sfl": "Lethality: Safe For Life",

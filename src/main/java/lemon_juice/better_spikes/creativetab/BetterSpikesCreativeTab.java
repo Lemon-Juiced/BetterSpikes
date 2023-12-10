@@ -32,6 +32,16 @@ public class BetterSpikesCreativeTab {
             event.accept(BetterSpikesBlocks.BAMBOO_SPIKE.get());
             event.accept(BetterSpikesBlocks.CRIMSON_SPIKE.get());
             event.accept(BetterSpikesBlocks.WARPED_SPIKE.get());
+
+            event.accept(BetterSpikesBlocks.STONE_SPIKE.get());
+            event.accept(BetterSpikesBlocks.GRANITE_SPIKE.get());
+            event.accept(BetterSpikesBlocks.DIORITE_SPIKE.get());
+            event.accept(BetterSpikesBlocks.ANDESITE_SPIKE.get());
+            event.accept(BetterSpikesBlocks.DEEPSLATE_SPIKE.get());
+            event.accept(BetterSpikesBlocks.TUFF_SPIKE.get());
+            event.accept(BetterSpikesBlocks.NETHERRACK_SPIKE.get());
+            event.accept(BetterSpikesBlocks.BASALT_SPIKE.get());
+            event.accept(BetterSpikesBlocks.BLACKSTONE_SPIKE.get());
         }
     }
 

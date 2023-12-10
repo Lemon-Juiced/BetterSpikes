@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " / ",
+    "/#/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:bamboo"
+    },
+    "#": {
+      "item": "minecraft:bamboo_planks"
+    }
+  },
+  "result": {
+    "item": "better_spikes:bamboo_spike",
+    "count": 1
+  }
+}

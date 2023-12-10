@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "D",
+    "#"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:pointed_dripstone"
+    },
+    "#": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "result": {
+    "item": "better_spikes:diorite_spike",
+    "count": 1
+  }
+}

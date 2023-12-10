@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " / ",
+    "/#/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "item": "better_spikes:oak_spike",
+    "count": 1
+  }
+}

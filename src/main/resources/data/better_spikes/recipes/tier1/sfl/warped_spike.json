@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " / ",
+    "/#/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "minecraft:warped_planks"
+    }
+  },
+  "result": {
+    "item": "better_spikes:warped_spike",
+    "count": 1
+  }
+}

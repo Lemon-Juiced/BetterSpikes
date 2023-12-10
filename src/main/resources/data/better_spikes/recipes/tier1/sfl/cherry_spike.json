@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " / ",
+    "/#/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "#": {
+      "item": "minecraft:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "better_spikes:cherry_spike",
+    "count": 1
+  }
+}

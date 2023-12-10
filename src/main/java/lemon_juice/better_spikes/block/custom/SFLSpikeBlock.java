@@ -3,7 +3,6 @@ package lemon_juice.better_spikes.block.custom;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.entity.Mob;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 
@@ -11,8 +10,11 @@ import net.minecraft.world.level.block.state.BlockState;
  * A "Safe For Life" version of the <code>AbstractSpikeBlock</code> that does not kill <code>Entity</code>s
  */
 public class SFLSpikeBlock extends AbstractSpikeBlock{
-    public SFLSpikeBlock(Properties properties) {
+    private float damageBonus;
+
+    public SFLSpikeBlock(Properties properties, float damageBonus) {
         super(properties);
+        this.damageBonus = damageBonus;
     }
 
     public void entityInside(BlockState blockState, Level level, BlockPos blockPos, Entity entity) {
@@ -23,7 +25,7 @@ public class SFLSpikeBlock extends AbstractSpikeBlock{
             float livingEntityHealth = livingEntity.getHealth();
             boolean entityCanReceiveDamage = true;
             if (livingEntityHealth <= 1.0F) entityCanReceiveDamage = false;
-            if(entityCanReceiveDamage) livingEntity.hurt(level.damageSources().cactus(), 1.0F);
+            if(entityCanReceiveDamage) livingEntity.hurt(level.damageSources().generic(), 1.0F + damageBonus);
         }
 
         // This only accounts for players for some reason

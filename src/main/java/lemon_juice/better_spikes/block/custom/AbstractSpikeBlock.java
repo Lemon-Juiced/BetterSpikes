@@ -16,9 +16,12 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 public class AbstractSpikeBlock extends Block {
     private static final float HURT_SPEED_THRESHOLD = 0.003F;
     private static final VoxelShape SAPLING_SHAPE;
+    
+    private float damageBonus;
 
-    public AbstractSpikeBlock(Properties properties) {
+    public AbstractSpikeBlock(Properties properties, float damageBonus) {
         super(properties);
+        this.damageBonus = damageBonus;
     }
 
     public VoxelShape getShape(BlockState blockState, BlockGetter blockGetter, BlockPos blockPos, CollisionContext context) {
@@ -26,7 +29,7 @@ public class AbstractSpikeBlock extends Block {
     }
 
     public void entityInside(BlockState blockState, Level level, BlockPos blockPos, Entity entity) {
-        entity.hurt(level.damageSources().cactus(), 1.0F);
+        entity.hurt(level.damageSources().generic(), 1.0F + damageBonus);
     }
 
     static {

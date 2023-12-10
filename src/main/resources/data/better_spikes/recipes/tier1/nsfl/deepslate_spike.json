@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "D",
+    "#"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:pointed_dripstone"
+    },
+    "#": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "result": {
+    "item": "better_spikes:deepslate_spike",
+    "count": 1
+  }
+}
